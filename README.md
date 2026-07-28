@@ -1,4 +1,6 @@
 # IOT-PROJECT-TASK-2
+WOKWI LINK
+https://wokwi.com/projects/470777393133677569
 
 utomated Irrigation Controller — Wokwi Setup Guide
 These files (sketch.ino, diagram.json, libraries.txt) together form a complete Wokwi project. No physical hardware needed.
