@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Maaz",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -60, "left": 200, "attrs": {} },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": -60, "left": 380, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:3V3", "pot1:VCC", "red", [] ],
+    [ "esp:GND.1", "pot1:GND", "black", [] ],
+    [ "esp:D34", "pot1:SIG", "green", [] ],
+
+    [ "esp:5V", "relay1:VCC", "red", [] ],
+    [ "esp:GND.2", "relay1:GND", "black", [] ],
+    [ "esp:D5", "relay1:IN", "blue", [] ]
+  ]
+}

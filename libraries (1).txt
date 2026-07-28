@@ -1,0 +1,6 @@
+# Wokwi Library List
+# https://docs.wokwi.com/guides/libraries
+#
+# This project only uses built-in ESP32 Arduino core functions
+# (analogRead, digitalWrite, map, constrain, millis).
+# No external libraries are required.
